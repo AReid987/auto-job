@@ -5,24 +5,36 @@ on:
     branches:
       - main
   pull_request:
+    branches:
+      - main
 
 permissions:
   actions: read
   contents: read
 
 jobs:
+  install:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
   cache-and-install:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
+        name: Install pnpm
         with:
           version: 8
           run_install: false
@@ -42,8 +54,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
   main:
-    needs: cache-and-install
+    needs: [install, cache-and-install]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
