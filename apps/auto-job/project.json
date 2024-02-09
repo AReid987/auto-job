@@ -1,0 +1,24 @@
+{
+  "name": "auto-job",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/auto-job/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "auto-job:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "auto-job:build:development"
+        },
+        "production": {
+          "buildTarget": "auto-job:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
