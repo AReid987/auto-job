@@ -42,13 +42,16 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [AReid987/auto-job](https://github.com/AReid987/auto-job)![](https://img.stackshare.io/public_badge.svg "public")
+
+![](https://img.stackshare.io/repo.svg 'repo') [AReid987/auto-job](https://github.com/AReid987/auto-job)![](https://img.stackshare.io/public_badge.svg 'public')
 <br/><br/>
 |26<br/>Tools used|02/09/24 <br/>Report generated|
 |------|------|
+
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (2)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
@@ -70,6 +73,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (3)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/8747/4zsOyxko_400x400.jpg' alt='NestJS'>
@@ -99,6 +103,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (7)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
@@ -160,6 +165,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (1)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
@@ -172,26 +178,25 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (13)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (13)
 
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@nestjs/common](https://www.npmjs.com/@nestjs/common)|v10.0.2|02/09/24|Antonio Reid |MIT|N/A|
-|[@nestjs/core](https://www.npmjs.com/@nestjs/core)|v10.0.2|02/09/24|Antonio Reid |MIT|N/A|
-|[@nestjs/testing](https://www.npmjs.com/@nestjs/testing)|v10.0.2|02/09/24|Antonio Reid |MIT|N/A|
-|[@types/jest](https://www.npmjs.com/@types/jest)|v29.4.0|02/09/24|Antonio Reid |MIT|N/A|
-|[@types/node](https://www.npmjs.com/@types/node)|v18.16.9|02/09/24|Antonio Reid |MIT|N/A|
-|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v6.13.2|02/09/24|Antonio Reid |MIT|N/A|
-|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v6.13.2|02/09/24|Antonio Reid |BSD-2-Clause|N/A|
-|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v9.0.0|02/09/24|Antonio Reid |MIT|N/A|
-|[reflect-metadata](https://www.npmjs.com/reflect-metadata)|v0.1.13|02/09/24|Antonio Reid |Apache-2.0|N/A|
-|[ts-jest](https://www.npmjs.com/ts-jest)|v29.1.0|02/09/24|Antonio Reid |MIT|N/A|
-|[ts-node](https://www.npmjs.com/ts-node)|v10.9.1|02/09/24|Antonio Reid |MIT|N/A|
-|[tslib](https://www.npmjs.com/tslib)|v2.3.0|02/09/24|Antonio Reid |0BSD|N/A|
-|[webpack-cli](https://www.npmjs.com/webpack-cli)|v5.1.4|02/09/24|Antonio Reid |MIT|N/A|
+| NAME                                                                                       | VERSION  | LAST UPDATED | LAST UPDATED BY | LICENSE      | VULNERABILITIES |
+| :----------------------------------------------------------------------------------------- | :------- | :----------- | :-------------- | :----------- | :-------------- |
+| [@nestjs/common](https://www.npmjs.com/@nestjs/common)                                     | v10.0.2  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@nestjs/core](https://www.npmjs.com/@nestjs/core)                                         | v10.0.2  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@nestjs/testing](https://www.npmjs.com/@nestjs/testing)                                   | v10.0.2  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@types/jest](https://www.npmjs.com/@types/jest)                                           | v29.4.0  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@types/node](https://www.npmjs.com/@types/node)                                           | v18.16.9 | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin) | v6.13.2  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)               | v6.13.2  | 02/09/24     | Antonio Reid    | BSD-2-Clause | N/A             |
+| [eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)                     | v9.0.0   | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [reflect-metadata](https://www.npmjs.com/reflect-metadata)                                 | v0.1.13  | 02/09/24     | Antonio Reid    | Apache-2.0   | N/A             |
+| [ts-jest](https://www.npmjs.com/ts-jest)                                                   | v29.1.0  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [ts-node](https://www.npmjs.com/ts-node)                                                   | v10.9.1  | 02/09/24     | Antonio Reid    | MIT          | N/A             |
+| [tslib](https://www.npmjs.com/tslib)                                                       | v2.3.0   | 02/09/24     | Antonio Reid    | 0BSD         | N/A             |
+| [webpack-cli](https://www.npmjs.com/webpack-cli)                                           | v5.1.4   | 02/09/24     | Antonio Reid    | MIT          | N/A             |
 
 <br/>
 <div align='center'>
