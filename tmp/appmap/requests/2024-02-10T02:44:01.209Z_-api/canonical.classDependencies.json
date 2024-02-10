@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /api",
+    "callee": "auto-job/AppController"
+  },
+  {
+    "caller": "auto-job/AppController",
+    "callee": "auto-job/AppService"
+  }
+]

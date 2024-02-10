@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_client_request": {
+        "request_method": "POST",
+        "url": "https://cloud.nx.app/nx-cloud/runs/end",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/octet-stream",
+          "Authorization": "Mzk4ZGRhMjMtMWJjMy00NTYwLWEwYzUtYzUxMmJlZjNlYjY2fHJlYWQtd3JpdGU=",
+          "Nx-Cloud-Client-Version": "2402.08.4",
+          "Content-Encoding": "gzip",
+          "User-Agent": "axios/0.21.2",
+          "Content-Length": "1030",
+          "Host": "cloud.nx.app"
+        }
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_client_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Correlation-Id": "a88c5b2a-19d9-4296-884f-3e9a448d9672",
+          "Server": "Ktor/production",
+          "Date": "Sat, 10 Feb 2024 02:42:58 GMT",
+          "Content-Length": "68",
+          "Content-Type": "application/json",
+          "Via": "1.1 google",
+          "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        }
+      },
+      "id": 2,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.09507362500880845
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.15.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.9.0"
+    },
+    "app": "@auto-job/source",
+    "recorder": {
+      "type": "process",
+      "name": "process"
+    },
+    "name": "2024-02-10T02:42:57.635Z"
+  },
+  "classMap": [
+    {
+      "type": "external-service",
+      "name": "cloud.nx.app",
+      "children": [
+        {
+          "type": "external-route",
+          "name": "POST https://cloud.nx.app/nx-cloud/runs/end"
+        }
+      ]
+    }
+  ]
+}

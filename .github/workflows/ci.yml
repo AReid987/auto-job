@@ -39,11 +39,19 @@ jobs:
           path: ./tmp/appmap
           key: appmaps-${{ github.sha }}-${{ github.run_attempt }}
   appmap-analysis:
+    runs-on: ubuntu-latest
     if: always()
     needs: [main]
-    uses: getappmap/analyze-action/.github/workflows/appmap-analysis.yml@v1
-    permissions:
-      actions: read
-      contents: read
-      checks: write
-      pull-requests: write
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+      - uses:
+          getappmap/analyze-action@v1
+
+          # permissions:
+          #   actions: read
+          #   contents: read
+          #   checks: write
+          #   pull-requests: write
